@@ -1,3 +1,21 @@
+body {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding-top: 50px;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  margin-right: 50px;
+}
+
+h1, h2 {
+  margin: 10px;
+}
+
 .square {
   width: 200px;
   height: 200px;
@@ -10,8 +28,8 @@
   flex-flow: row wrap;
   justify-content: center;
   align-items: center;
-  width: 618px;
-  height: 618px;
+  width: 630px;
+  height: 600px;
 }
 
 .mole {
